@@ -93,8 +93,10 @@ section h2{
 }
 
 .branch{
-	display:flex;
-	justify-content: center;
+	/* height:20px; */
+	/* width: 100%; */
+	/* display:flex;
+	justify-content: center; */
 	margin: 0 auto 30px;
 }
 
