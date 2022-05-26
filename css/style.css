@@ -21,6 +21,8 @@ body{
 	overflow-x: hidden;
 	color: #000;
 	background: #fff8dc;
+	background-image:url("https://suupia.github.io/recapture-monster-iland/images/pattern01.png");
+    background-repeat: repeat;
 }
 
 a{
@@ -113,7 +115,7 @@ section h2 span {
 }
 
 #sec01 .inner,#sec02 .inner,#sec03 .inner, #sec04 .inner{
-	border-bottom: 10px solid #74675a;
+	border-bottom: 10px solid #53493f;
 }
 
 .innerS{
