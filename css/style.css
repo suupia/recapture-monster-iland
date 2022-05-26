@@ -56,6 +56,18 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 h1, h2{
 	font-family: 'ＭＳ ゴシック','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Modern Antiqua', 'Noto Sans JP',serif;
+	/* color:rgb(255, 184, 70);
+	text-shadow: 
+	0 1px #ffd48e,
+    0 2px #FFC466,
+    0 3px #FFB032,
+    0 4px #FFB032,
+    0 5px #FF9F04,
+    0 6px #FF9F04,
+    0 7px #CC7D00,
+    0 8px #CC7D00,
+    0 9px #995E00,
+    0 10px 8px #331F00; */
 }
 
 img{
@@ -90,8 +102,8 @@ section h2 span {
 	padding-bottom: 50px;
 }
 
-#sec03 .inner, #sec04 .inner{
-	border-bottom: 1px solid #a0a0a0;
+#sec01 .inner,#sec02 .inner,#sec03 .inner, #sec04 .inner{
+	border-bottom: 10px solid #a0a0a0;
 }
 
 .innerS{
@@ -320,6 +332,10 @@ section h2 span {
 		width: 96% !important;
 		left: 2%;
 	}
+
+	#mainImg{
+		padding: 50px 0 0 0;
+	}
 }
 
 @media only screen and (max-width: 799px){
@@ -345,6 +361,10 @@ section h2 span {
 	#sidebar h1 img{
 		width: auto !important;
 		max-height: 60px;
+	}
+	
+	#mainImg{
+		padding: 50px 0 0 0;
 	}
 	
   a#menu{
