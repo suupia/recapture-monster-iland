@@ -102,9 +102,14 @@ section h2 span {
 
 /* SEC01 ムービー
 ------------------------------------------------------------*/
-#sec01 video{
-	display:flex
-	
+/* #sec01 video{
+	display:flex;
+	justify-content: center;
+} */
+
+.introductionVideo{
+	display:flex;
+	justify-content: center;
 }
 
 /* SEC02 奪われた島を取り戻そう！
@@ -212,7 +217,7 @@ section h2 span {
 
 @media only screen and (min-width: 800px){
 	body{
-		font-size:14px;
+		font-size:30px;
 	}
 	
 	#wrapper{
@@ -244,7 +249,8 @@ section h2 span {
 	}
 
 	#mainnav li{
-		font-size: 14px;
+		font-size: 20px;
+		font-weight: bold;
 		padding: 10px 0;
 	}
 	
