@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Modern+Antiqua);
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
@@ -14,7 +15,7 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
-	font: 25px/1.9 'ＭＳ ゴシック','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+	font: 25px/1.9 'DotGothic16','ＭＳ ゴシック','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
 	font-weight: 300;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
@@ -38,7 +39,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 #mainnav a{
 	color: #000;
-	font-family: 'ＭＳ ゴシック','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Modern Antiqua', 'Noto Sans JP',serif;
+	font-family: 'DotGothic16','ＭＳ ゴシック','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Modern Antiqua', 'Noto Sans JP',serif;
 }
 
 
@@ -55,7 +56,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 /* 共通
 ------------------------------------------------------------*/
 h1, h2{
-	font-family: 'ＭＳ ゴシック','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Modern Antiqua', 'Noto Sans JP',serif;
+	font-family: 'DotGothic16','ＭＳ ゴシック','MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Modern Antiqua', 'Noto Sans JP',serif;
 	/* color:rgb(255, 184, 70);
 	text-shadow: 
 	0 1px #ffd48e,
