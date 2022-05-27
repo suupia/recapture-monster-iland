@@ -29,13 +29,26 @@ $(function(){
 	});
 	
 	$('.panel').hide();
-	$('#menuWrap').toggle(function(){
-		$(this).next().slideToggle();
-		$('#menuBtn').toggleClass('close');
-	},
-	function(){
-		$(this).next().slideToggle();
-		$('#menuBtn').removeClass('close');
-	});
+	// $('#menuWrap').toggle(function(){
+	// 	$(this).next().slideToggle();
+	// 	$('#menuBtn').toggleClass('close');
+	// },
+	// function(){
+	// 	$(this).next().slideToggle();
+	// 	$('#menuBtn').removeClass('close');
+	// });
 
+	// $('#menuWrap').on('click',function(){
+	// 	$(this).next().slideToggle();
+	// 	$('#menuBtn').toggleClass('close');
+	// },
+	// function(){
+	// 	$(this).next().slideToggle();
+	// 	$('#menuBtn').removeClass('close');
+	// });
+
+	$('#menuWrap').on('click', function(){
+        $(this).next().slideToggle();
+        $('#menuBtn').toggleClass('close');
+    });
 });

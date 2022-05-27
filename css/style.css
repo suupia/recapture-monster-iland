@@ -450,6 +450,7 @@ section h2 span {
 	#mainnav{
 		position: absolute;
 		top: 0;
+		height:  100%;
 		width: 100%;
 		text-align: right;
 	}
